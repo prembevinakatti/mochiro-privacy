@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Mochiro Focus Timer</title>
+  <style>
+    :root {
+      --bg: #FAF7F0;
+      --card-bg: #FFFFFF;
+      --text-main: #2D3748;
+      --text-sub: #718096;
+      --primary: #4E7D59;
+      --primary-light: #EBF5EE;
+      --accent: #E07A5F;
+      --border: #E2E8F0;
+      --highlight: #FEF3C7;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 44px;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+      border: 1px solid var(--border);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 36px;
+      padding-bottom: 24px;
+      border-bottom: 2px solid var(--bg);
+    }
+
+    .app-badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #1A202C;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    .last-updated {
+      color: var(--text-sub);
+      font-size: 14px;
+    }
+
+    .highlight-card {
+      background: var(--primary-light);
+      border-left: 4px solid var(--primary);
+      padding: 18px 22px;
+      border-radius: 0 12px 12px 0;
+      margin-bottom: 32px;
+    }
+
+    .highlight-card p {
+      font-weight: 600;
+      color: #2F5233;
+      margin: 0;
+      font-size: 15px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #1A202C;
+      margin-top: 32px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      font-size: 16px;
+      color: #2D3748;
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 16px;
+      font-size: 15px;
+      color: #4A5568;
+    }
+
+    ul {
+      margin-bottom: 18px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      font-size: 15px;
+      color: #4A5568;
+    }
+
+    li strong {
+      color: #1A202C;
+    }
+
+    .permission-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px;
+      font-size: 14px;
+    }
+
+    .permission-table th,
+    .permission-table td {
+      border: 1px solid var(--border);
+      padding: 12px 14px;
+      text-align: left;
+    }
+
+    .permission-table th {
+      background: #F8FAFC;
+      font-weight: 700;
+      color: #2D3748;
+    }
+
+    .callout {
+      background: #F8FAFC;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-sub);
+      font-size: 13px;
+    }
+
+    .footer a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 16px 12px;
+      }
+      .container {
+        padding: 24px 18px;
+        border-radius: 14px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="app-badge">Mochiro • Official Privacy Policy</span>
+      <h1>Privacy Policy</h1>
+      <div class="last-updated">Last Updated: November 12, 2026</div>
+    </div>
+
+    <div class="highlight-card">
+      <p>🌿 Summary: Mochiro is an offline-first focus companion. Version 1 is 100% free with no in-app purchases, no subscriptions, no ads, no analytics, and no remote data tracking. Your focus history and settings remain entirely on your device.</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>
+      Welcome to <strong>Mochiro</strong> ("we", "our", or "the app"), published on Google Play by developer organization <strong>BORN2CODE</strong> (lead developer: <strong>Onkar Bevinakatti</strong>, application ID: <code>com.born2code.mochiro</code>). 
+      Mochiro is a peaceful focus companion and study timer designed to help you build distraction-free productivity habits alongside your soft-3D Mochi pal.
+    </p>
+    <p>
+      We believe your daily productivity, study sessions, and focus habits belong exclusively to you. This Privacy Policy outlines our zero-data collection architecture, explains how local on-device storage operates, clarifies how Android system permissions are utilized, and details how Android Auto Backup interacts with your local data.
+    </p>
+
+    <h2>2. Zero Data Collection & Zero Telemetry</h2>
+    <p>Mochiro is designed with an uncompromising commitment to your privacy:</p>
+    <ul>
+      <li><strong>No Analytics SDKs:</strong> We do not integrate Google Analytics, Firebase Analytics, Mixpanel, Amplitude, Segment, or any other user telemetry or tracking service.</li>
+      <li><strong>No Advertising:</strong> Mochiro contains zero advertising SDKs (such as Google AdMob, Meta Audience Network, Unity Ads, or AppLovin). We never profile your activity, display banners, or monetize your attention.</li>
+      <li><strong>No User Account or Login:</strong> You do not need to register, provide an email address, enter a phone number, or log in with Google, Apple, or social media to use Mochiro.</li>
+      <li><strong>No Location, Contacts, or Microphone Tracking:</strong> We never request access to your GPS location, contact directory, microphone, camera, or device call logs.</li>
+    </ul>
+
+    <h2>3. Local On-Device Data Storage & Auto Backup</h2>
+    <p>All focus data, streaks, and customization in Mochiro are processed and stored exclusively on your device:</p>
+    <ul>
+      <li><strong>Local SQLite Database:</strong> Completed focus sessions, timestamps, session duration, and companion usage are recorded in a private, sandboxed, on-device SQLite database (via <code>expo-sqlite</code>). This database is stored in the application's private internal storage directory and is not shared with any third party.</li>
+      <li><strong>Local Preferences (MMKV):</strong> User preferences—such as Do Not Disturb mode (Priority vs. Total Silence), sound and haptic toggles, reduce-motion settings, chosen timer font, active timer color preset, selected Mochi companion (from the 4 free companions), and selected living atmosphere (from the 4 free atmospheres)—are saved locally in high-speed key-value storage.</li>
+    </ul>
+
+    <div class="callout">
+      <h3>Android Auto Backup Disclosure</h3>
+      <p>
+        Mochiro has Android Auto Backup enabled (<code>android:allowBackup="true"</code>). If you have enabled Android Backup in your device settings, Android may automatically back up your local app database and user preferences to your personal Google Drive account associated with your device. When you reinstall Mochiro or set up a new Android device with the same Google account, Android may restore this local data. This backup is managed directly by Google Android OS under your own Google account security settings; Mochiro developers never receive or access your backup files.
+      </p>
+    </div>
+
+    <h2>4. Android Device Permissions & Usage</h2>
+    <p>Mochiro requests only the Android permissions necessary to provide the focus timer and anti-distraction features you explicitly select:</p>
+
+    <table class="permission-table">
+      <thead>
+        <tr>
+          <th>Permission Name</th>
+          <th>Manifest Identifier</th>
+          <th>Purpose in Mochiro</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Do Not Disturb Access</strong></td>
+          <td><code>android.permission.ACCESS_NOTIFICATION_POLICY</code></td>
+          <td>
+            Optional focus feature. When enabled by the user, Mochiro temporarily activates your chosen Do Not Disturb filter during a focus session to mute incoming notification rings and vibrations. Mochiro automatically restores your previous interruption filter as soon as the session ends or is cancelled.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Notification Posting</strong></td>
+          <td><code>android.permission.POST_NOTIFICATIONS</code></td>
+          <td>
+            Required on Android 13+ solely to alert you when your focus timer has finished, letting you know your session is complete if your display is off or another app is open.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Haptic Feedback</strong></td>
+          <td><code>android.permission.VIBRATE</code></td>
+          <td>
+            Drives tactile vibration feedback when pressing timer controls, stepping duration, completing a session, or holding the 5-second Hold-to-Quit emergency exit.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Boot Completed</strong></td>
+          <td><code>android.permission.RECEIVE_BOOT_COMPLETED</code></td>
+          <td>
+            It restores the timer-end alert after a restart.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Wake Lock</strong></td>
+          <td><code>android.permission.WAKE_LOCK</code></td>
+          <td>
+            Briefly awakens device CPU to sound the timer completion chime when a session finishes while the screen is asleep.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <h3>Screen Pinning (Lock Task Mode)</h3>
+      <p>
+        Mochiro's full-screen focus lock uses Android's official <code>startLockTask()</code> system API. This is not a manifest permission; it is an Android OS feature that temporarily pins the app to your screen to eliminate notification interruptions and impulsive phone checking. You can exit Screen Pinning at any moment by holding down the in-app 5-second Hold-to-Quit button or by using Android's standard system unpin key combination (Back + Overview buttons).
+      </p>
+    </div>
+
+    <div class="callout">
+      <h3>Blocked / Unused Permissions</h3>
+      <p>
+        Mochiro explicitly blocks all non-essential and sensitive permissions using <code>tools:node="remove"</code> in its release manifest:
+      </p>
+      <ul>
+        <li><code>android.permission.INTERNET</code>: Blocked. Mochiro v1 is 100% offline-first. External links open directly in your device's browser without requiring internet permission for Mochiro.</li>
+        <li><code>android.permission.FOREGROUND_SERVICE</code> &amp; <code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>: Blocked. Mochiro does not run background services.</li>
+        <li><code>android.permission.MODIFY_AUDIO_SETTINGS</code>: Blocked. System audio hardware routing is untouched.</li>
+        <li><code>com.android.vending.BILLING</code>: Blocked. Mochiro v1 is completely free with no in-app purchases.</li>
+        <li><code>android.permission.RECORD_AUDIO</code>: Blocked. Mochiro synthesizes audio locally and never records microphone audio.</li>
+        <li><code>android.permission.READ_EXTERNAL_STORAGE</code> &amp; <code>WRITE_EXTERNAL_STORAGE</code>: Blocked. Mochiro uses private sandboxed storage.</li>
+      </ul>
+    </div>
+
+    <h2>5. In-App Purchases & Payments</h2>
+    <p>
+      Mochiro is currently completely free, with no in-app purchases, paid subscriptions, or payment processing. All 4 Mochi companions, 4 living atmospheres, timer typography, and focus analytics are fully unlocked for every user. This privacy policy will be updated before any paid feature ships.
+    </p>
+
+    <h2>6. Network Dependencies & Third-Party Code Audit</h2>
+    <p>To ensure complete transparency regarding network activity:</p>
+    <ul>
+      <li><strong>In-App Billing (RevenueCat):</strong> Disabled. Mochiro v1 runs in free mode (<code>V1_MONETIZATION = 'free'</code>). The billing SDK initialization is bypassed, and billing permissions are removed from the release manifest.</li>
+      <li><strong>Expo Updates:</strong> Disabled in the release manifest (<code>expo.modules.updates.ENABLED = false</code>). The app does not download remote JavaScript bundles or over-the-air patches.</li>
+      <li><strong>External Browser (expo-web-browser):</strong> Used strictly when you tap an external link (such as opening this Privacy Policy or the developer website). This launches your device's default web browser outside of Mochiro.</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>
+      Mochiro is a general-audience productivity tool and is not directed at children under the age of 13. Mochiro does not collect, store, or transmit personal information from any user, including children. If you have questions regarding our privacy practices, please contact us.
+    </p>
+
+    <h2>8. Data Retention & Deletion</h2>
+    <p>
+      Because Mochiro does not store your data on remote servers or in cloud databases:
+    </p>
+    <ul>
+      <li><strong>Immediate Local Deletion:</strong> You can completely erase all local focus history and preferences at any time via <em>Android Settings &rarr; Apps &rarr; Mochiro &rarr; Storage & Cache &rarr; Clear Storage</em>.</li>
+      <li><strong>App Uninstall:</strong> Uninstalling Mochiro permanently removes the local SQLite database and stored preferences from your device.</li>
+    </ul>
+
+    <h2>9. Changes to this Privacy Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time to reflect future app enhancements or regulatory requirements. Any modifications will be indicated by the "Last Updated" date at the top of this page.
+    </p>
+
+    <h2>10. Contact Us</h2>
+    <p>
+      If you have questions, feedback, or concerns regarding Mochiro's privacy practices, please contact us:
+    </p>
+    <ul>
+      <li><strong>Play Store Developer:</strong> BORN2CODE</li>
+      <li><strong>Developer Name:</strong> Onkar Bevinakatti</li>
+      <li><strong>App Name:</strong> Mochiro</li>
+      <li><strong>Application ID:</strong> <code>com.born2code.mochiro</code></li>
+      <li><strong>Support Email:</strong> <a href="mailto:onkarbevinakatti09@gmail.com">onkarbevinakatti09@gmail.com</a></li>
+      <li><strong>Developer Website:</strong> <a href="https://born-2-code.tech" target="_blank" rel="noopener">https://born-2-code.tech</a></li>
+    </ul>
+
+    <div class="footer">
+      <p>&copy; 2026 BORN2CODE • Onkar Bevinakatti. Mochiro — Peaceful Focus Companion. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
